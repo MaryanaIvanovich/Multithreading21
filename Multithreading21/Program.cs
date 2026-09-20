@@ -77,7 +77,7 @@ namespace Multithreading21
                         if (path[i, j] >= 0)
                         {
                             Thread.Sleep(1);
-                            path[i, j] = 2;
+                            path[i, j] = -2;
                         }
                     }
                 }
